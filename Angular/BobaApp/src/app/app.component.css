@@ -1,12 +1,12 @@
 .header{
     background: #FADFDF;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-brand {
   color: #0a0a0a;
-  font-size: 32px;
+  font-size: 24px;
   font-family: Inter;
   font-weight: 700;
   word-wrap: break-word;
@@ -14,7 +14,7 @@
 
 .header-options {
   color: #0a0a0a;
-  font-size: 20px;
+  font-size: 16px;
   font-family: Inter;
   font-weight: 500;
   word-wrap: break-word;

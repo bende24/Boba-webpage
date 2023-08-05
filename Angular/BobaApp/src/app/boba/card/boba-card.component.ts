@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Tea } from '../tea.interface';
 
 @Component({
   selector: 'app-boba-card',
@@ -6,4 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./boba-card.component.css']
 })
 export class BobaCardComponent {
+  @Input() tea!: Tea
 }

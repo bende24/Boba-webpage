@@ -3,13 +3,15 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { HeroComponent } from './hero/hero.component';
-import { BobaCardComponent } from './boba-card/boba-card.component';
+import { BobaCardComponent } from './boba/card/boba-card.component';
+import { ToppingBadgeComponent } from './toppping/badge/topping-badge.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeroComponent,
-    BobaCardComponent
+    BobaCardComponent,
+    ToppingBadgeComponent
   ],
   imports: [
     BrowserModule
