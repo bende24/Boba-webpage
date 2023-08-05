@@ -1,0 +1,28 @@
+.header{
+    background: #FADFDF;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.header-brand {
+  color: #0a0a0a;
+  font-size: 32px;
+  font-family: Inter;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.header-options {
+  color: #0a0a0a;
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 500;
+  word-wrap: break-word;
+}
+
+.header-navigation {
+  justify-content: flex-end;
+  align-items: center;
+  gap: 32px;
+  display: inline-flex;
+}
