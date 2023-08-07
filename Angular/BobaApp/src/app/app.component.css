@@ -1,28 +1,56 @@
-.header{
-    background: #FADFDF;
-    padding-top: 24px;
-    padding-bottom: 24px;
+.header {
+	background: #fadfdf;
+	padding-top: 48px;
+	padding-bottom: 48px;
 }
 
 .header-brand {
-  color: #0a0a0a;
-  font-size: 24px;
-  font-family: Inter;
-  font-weight: 700;
-  word-wrap: break-word;
+	color: #0a0a0a;
+	font-size: 24px;
+	font-family: Inter;
+	font-weight: 700;
+	word-wrap: break-word;
 }
 
 .header-options {
-  color: #0a0a0a;
-  font-size: 16px;
-  font-family: Inter;
-  font-weight: 500;
-  word-wrap: break-word;
+	color: #0a0a0a;
+	font-size: 20px;
+	font-family: Inter;
+	font-weight: 500;
+	word-wrap: break-word;
 }
 
 .header-navigation {
-  justify-content: flex-end;
-  align-items: center;
-  gap: 32px;
-  display: inline-flex;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 32px;
+	display: inline-flex;
+}
+
+.content-title {
+	color: #0a0a0a;
+	font-family: Inter;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.menu-item-list{
+	display: flex;
+	align-items: flex-start;
+	align-content: flex-start;
+	align-self: stretch;
+	flex-wrap: wrap;
+}
+
+.contact{
+	background-color: #323232;
+}
+
+.footer-background-pattern {
+	width: 100%;
+	height: 75px;
+	background-color: #323232;
+	background-image: url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23d9d9d9' fill-opacity='0.5'%3E%3Cpath d='M50 50c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10s-10-4.477-10-10 4.477-10 10-10zM10 10c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10S0 25.523 0 20s4.477-10 10-10zm10 8c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm40 40c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }

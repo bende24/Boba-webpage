@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+.flex-column-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.padding-top-big{
+	padding-top: 64px;
+}
+
+.padding-bottom-big{
+	padding-bottom: 64px;
+}
+
+.big-gap {
+	gap: 64px;
+}
+
+.medium-gap {
+	gap: 48px;
+}
+
+.small-gap {
+	gap: 24px;
+}
+
+.xsmall-gap {
+	gap: 12px;
+}

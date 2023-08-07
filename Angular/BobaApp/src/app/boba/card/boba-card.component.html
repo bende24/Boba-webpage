@@ -1,26 +1,32 @@
 <div class="boba-card">
-  <div class="card-flex-column medium-gap">
-    <div class="card-flex-column small-gap">
-      <div class="special-banner">
-        {{ tea.specialBanner }}
-      </div>
-      <div>Image</div>
-    </div>
-    <div class="card-flex-column big-gap">
-      <div class="card-flex-column small-gap">
-        <div class="title">{{ tea.name }}</div>
-        <div class="description">
-          {{ tea.description }}
-        </div>
-      </div>
-      <div>
-        <div class="toppings-title">Great with</div>
-        <div class="toppings xsmall-gap">
-          <div *ngFor="let topping of tea.toppings">
-            <app-topping-badge [text]="topping"></app-topping-badge>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+	<div class="flex-column-container medium-gap">
+		<div class="flex-column-container small-gap">
+			<div class="special-banner">
+				{{ tea.specialBanner }}
+			</div>
+			<div class="d-flex justify-content-center">
+				<img src="{{ tea.image.url }}" />
+			</div>
+		</div>
+		<div class="flex-column-container big-gap">
+			<div class="flex-column-container small-gap">
+				<div class="title">{{ tea.name }}</div>
+				<div class="description">
+					{{ tea.description }}
+				</div>
+			</div>
+			<div>
+				<div class="toppings-title">Great with</div>
+				<div class="toppings xsmall-gap">
+					<div *ngFor="let topping of tea.toppings">
+						<app-topping-badge
+							[text]="topping"
+							[textColor]="tea.toppingsTextColor"
+							[backgroundColor]="tea.toppingsBackgroundColor"
+						></app-topping-badge>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>

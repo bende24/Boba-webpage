@@ -1,0 +1,40 @@
+span {
+	color: #f1f1f1;
+	font-family: Inter;
+}
+div {
+	color: #f1f1f1;
+	font-family: Inter;
+}
+
+.title {
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+
+.informations {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	align-self: stretch;
+}
+
+.information-title {
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+}
+
+.information-description {
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+i {
+	color: #f1f1f1;
+}

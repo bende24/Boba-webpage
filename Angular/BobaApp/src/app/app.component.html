@@ -1,16 +1,42 @@
 <div class="header">
-  <div class="container">
-    <div class="row d-flex align-items-center justify-content-center">
-      <div class="col-md-9 header-brand">
-        Boba
-      </div>
-      <div class="col-md-3 header-navigation">
-        <span class="header-options">Menu</span>
-        <span class="header-options">Toppings</span>
-        <span class="header-options">Contact</span>
-      </div>
-    </div>
-  </div>
+	<div class="container">
+		<div class="row d-flex align-items-center justify-content-center">
+			<span class="col-md-2 header-brand"> Boba </span>
+			<div class="col-md-7"></div>
+			<div class="col-md-3 header-navigation">
+				<span class="header-options">Menu</span>
+				<span class="header-options">Toppings</span>
+				<span class="header-options">Contact</span>
+			</div>
+		</div>
+	</div>
 </div>
 <app-hero></app-hero>
-<app-boba-card [tea]="tea"></app-boba-card>
+<div class="container">
+	<div class="col-md-12">
+		<div
+			class="padding-top-big padding-bottom-big flex-column-container big-gap"
+		>
+			<div class="flex-column-container medium-gap">
+				<span class="content-title">Menu</span>
+				<div class="menu-item-list medium-gap">
+					<app-boba-card
+						*ngFor="let tea of teas"
+						[tea]="tea"
+					></app-boba-card>
+				</div>
+				<span class="content-title">Toppings</span>
+				<div class="menu-item-list medium-gap"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="contact">
+	<div class="container">
+		<div class="col-md-12">
+			<app-contact class="padding-top-big padding-bottom-big"></app-contact>
+		</div>
+	</div>
+</div>
+<div class="footer-background-pattern"></div>

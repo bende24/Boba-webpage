@@ -1,71 +1,71 @@
 .boba-card {
-  padding-top: 20px;
-  padding-left: 32px;
-  padding-right: 32px;
-  padding-bottom: 32px;
-  border-radius: 24px;
-  border: 0.5px #bdbdbd solid;
-  width: 260px;
-  height: 500px;
+	padding-top: 20px;
+	padding-left: 32px;
+	padding-right: 32px;
+	padding-bottom: 32px;
+	border-radius: 24px;
+	border: 0.5px #bdbdbd solid;
+	width: 260px;
+	height: 500px;
 }
 
 .xsmall-gap {
-  gap: 6px;
+	gap: 6px;
 }
 
 .small-gap {
-  gap: 8px;
+	gap: 8px;
 }
 
 .medium-gap {
-  gap: 16px;
+	gap: 16px;
 }
 
 .big-gap {
-  gap: 24px;
-}
-
-.card-flex-column {
-  display: flex;
-  flex-direction: column;
+	gap: 24px;
 }
 
 .special-banner {
-  color: #bb1e1c;
-  font-size: 12px;
-  font-family: Inter;
-  font-weight: 700;
-  word-wrap: break-word;
-  text-align: right;
+	color: #bb1e1c;
+	font-size: 12px;
+	font-family: Inter;
+	font-weight: 700;
+	word-wrap: break-word;
+	text-align: right;
 }
 
 .title {
-  color: #0a0a0a;
-  font-size: 20px;
-  font-family: Inter;
-  font-weight: 600;
-  word-wrap: break-word;
+	color: #0a0a0a;
+	font-size: 20px;
+	font-family: Inter;
+	font-weight: 600;
+	word-wrap: break-word;
 }
 
 .toppings-title {
-  color: #525252;
-  font-size: 14px;
-  font-family: Inter;
-  font-weight: 600;
-  word-wrap: break-word;
+	color: #525252;
+	font-size: 14px;
+	font-family: Inter;
+	font-weight: 600;
+	word-wrap: break-word;
 }
 
 .description {
-  color: #525252;
-  font-size: 14px;
-  font-family: Inter;
-  font-weight: 400;
-  word-wrap: break-word;
+	color: #525252;
+	font-size: 14px;
+	font-family: Inter;
+	font-weight: 400;
+	word-wrap: break-word;
 }
 
 .toppings {
-  justify-content: flex-start;
-  align-items: center;
-  display: inline-flex;
-  flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+	display: inline-flex;
+	flex-wrap: wrap;
+}
+
+img {
+	width: 80%;
+	height: 80%;
 }
