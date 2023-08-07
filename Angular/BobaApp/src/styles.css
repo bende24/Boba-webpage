@@ -1,31 +1,50 @@
 /* You can add global styles to this file, and also import other style files */
-@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 
 .flex-column-container {
 	display: flex;
 	flex-direction: column;
 }
 
-.padding-top-big{
+.fill {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	align-self: stretch;
+}
+
+.padding-top-big {
 	padding-top: 64px;
 }
 
-.padding-bottom-big{
+.padding-bottom-big {
 	padding-bottom: 64px;
 }
 
-.big-gap {
+.xlarge-gap {
 	gap: 64px;
 }
 
-.medium-gap {
+.large-gap {
 	gap: 48px;
 }
 
-.small-gap {
+.medium-gap {
 	gap: 24px;
+}
+
+.small-gap {
+	gap: 16px;
 }
 
 .xsmall-gap {
 	gap: 12px;
+}
+
+.xxsmall-gap {
+	gap: 8px;
+}
+
+.xxxsmall-gap {
+	gap: 6px;
 }

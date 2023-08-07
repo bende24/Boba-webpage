@@ -4,7 +4,7 @@ import { Tea } from '../tea.interface';
 @Component({
 	selector: 'app-boba-card',
 	templateUrl: './boba-card.component.html',
-	styleUrls: ['./boba-card.component.css'],
+	styleUrls: ['./boba-card.component.css', '../../card/card.css'],
 })
 export class BobaCardComponent {
 	@Input() tea!: Tea;

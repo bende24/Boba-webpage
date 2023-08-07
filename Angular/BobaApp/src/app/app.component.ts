@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { Tea } from './boba/tea.interface';
-import { TeaItemService } from './boba/tea-items.service';
+import { TeaItemsService } from './boba/tea-items.service';
+import { ToppingItemsService } from './toppping/topping-items.service';
+import { Topping } from './toppping/topping.interface';
 
 @Component({
 	selector: 'app-root',
@@ -9,9 +11,13 @@ import { TeaItemService } from './boba/tea-items.service';
 })
 export class AppComponent {
 	title = 'Boba';
-	teas: Tea[]
+	teas: Tea[];
+	toppings: Topping[];
 
-	constructor(private teaItemService: TeaItemService) {
-		this.teas = teaItemService.getTeas();
+	constructor(
+		private teaItemService: TeaItemsService,
+		private toppingItemsService: ToppingItemsService) {
+		this.teas = teaItemService.get();
+		this.toppings = toppingItemsService.get();
 	}
 }

@@ -1,0 +1,24 @@
+<div class="item-card" style="width: 360px; height: 200px">
+	<div class="flex-column-container medium-gap">
+		<div class="flex-column-container xxsmall-gap">
+			<div class="card-title">{{ topping.name }}</div>
+			<div class="card-description">
+				{{ topping.description }}
+			</div>
+		</div>
+		<div>
+			<div class="secondary-title">Flavours</div>
+			<div class="list xxxsmall-gap">
+				<div *ngFor="let t of topping.toppings.names">
+					<app-topping-badge
+						[text]="t"
+						[textColor]="topping.toppings.toppingsTextColor"
+						[backgroundColor]="
+							topping.toppings.toppingsBackgroundColor
+						"
+					></app-topping-badge>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

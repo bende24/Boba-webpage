@@ -15,18 +15,26 @@
 <div class="container">
 	<div class="col-md-12">
 		<div
-			class="padding-top-big padding-bottom-big flex-column-container big-gap"
+			class="padding-top-big padding-bottom-big flex-column-container xlarge-gap"
 		>
 			<div class="flex-column-container medium-gap">
 				<span class="content-title">Menu</span>
-				<div class="menu-item-list medium-gap">
+				<div class="menu-item-list fill large-gap">
 					<app-boba-card
 						*ngFor="let tea of teas"
 						[tea]="tea"
 					></app-boba-card>
 				</div>
+			</div>
+
+			<div class="flex-column-container medium-gap">
 				<span class="content-title">Toppings</span>
-				<div class="menu-item-list medium-gap"></div>
+				<div class="menu-item-list fill">
+					<app-topping-card
+						*ngFor="let topping of toppings"
+						[topping]="topping"
+					></app-topping-card>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -35,7 +43,9 @@
 <div class="contact">
 	<div class="container">
 		<div class="col-md-12">
-			<app-contact class="padding-top-big padding-bottom-big"></app-contact>
+			<app-contact
+				class="padding-top-big padding-bottom-big"
+			></app-contact>
 		</div>
 	</div>
 </div>
