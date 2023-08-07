@@ -5,11 +5,7 @@
 }
 
 .header-brand {
-	color: #0a0a0a;
-	font-size: 24px;
-	font-family: Inter;
-	font-weight: 700;
-	word-wrap: break-word;
+	height: 40px;
 }
 
 .header-options {
