@@ -1,0 +1,44 @@
+<div class="top-half" [style.background]="tea.toppings.toppingsBackgroundColor">
+	<div class="container">
+		<div class="row d-flex">
+			<div class="col-md-12">
+				<div class="padding-left-big padding-right-big">
+                    <div class="flex-column-container medium-gap" [style.width]="'580px'">
+                        <div class="hero-special-banner" [style.color]="tea.specialBanner?.textColor">
+                            {{ tea.specialBanner?.text }}
+                        </div>
+                        <div class="flex-column-container xsmall-gap">
+                            <div class="hero-title">{{ tea.name }}</div>
+                            <div class="hero-description">{{ tea.description }}</div>
+                        </div>
+                    </div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="bottom-border">
+	<div class="container">
+		<div class="row d-flex second-half">
+			<div class="col-md-12 d-flex align-items-center">
+				<div
+					class="padding-left-big padding-right-big d-flex align-items-center medium-gap"
+				>
+					<div class="toppings-title">Great with</div>
+					<div class="list xsmall-gap">
+						<div *ngFor="let topping of tea.toppings.names">
+							<app-topping-badge
+								[text]="topping"
+								[textColor]="tea.toppings.toppingsTextColor"
+								[backgroundColor]="
+									tea.toppings.toppingsBackgroundColor
+								"
+								[textSize]="'16px'"
+							></app-topping-badge>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

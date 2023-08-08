@@ -1,5 +1,4 @@
 .header {
-	background: #fadfdf;
 	padding-top: 48px;
 	padding-bottom: 48px;
 }
@@ -11,7 +10,6 @@
 .header-options {
 	color: #0a0a0a;
 	font-size: 20px;
-	font-family: Inter;
 	font-weight: 500;
 	word-wrap: break-word;
 }
@@ -25,7 +23,6 @@
 
 .content-title {
 	color: #0a0a0a;
-	font-family: Inter;
 	font-size: 32px;
 	font-style: normal;
 	font-weight: 400;

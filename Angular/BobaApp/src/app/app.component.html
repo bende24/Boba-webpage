@@ -1,4 +1,4 @@
-<div class="header">
+<div class="header" [style.background]="heroTea.toppings.toppingsBackgroundColor">
 	<div class="container">
 		<div class="row d-flex align-items-center justify-content-center">
 			<div class="col-md-2">
@@ -17,7 +17,7 @@
 		</div>
 	</div>
 </div>
-<app-hero></app-hero>
+<app-hero [tea]="heroTea"></app-hero>
 <div class="container">
 	<div class="col-md-12">
 		<div

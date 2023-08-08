@@ -12,6 +12,7 @@ import { Topping } from './toppping/topping.interface';
 export class AppComponent {
 	title = 'Boba';
 	teas: Tea[];
+	heroTea: Tea;
 	toppings: Topping[];
 
 	constructor(
@@ -19,5 +20,6 @@ export class AppComponent {
 		private toppingItemsService: ToppingItemsService) {
 		this.teas = teaItemService.get();
 		this.toppings = toppingItemsService.get();
+		this.heroTea = teaItemService.getHero();
 	}
 }

@@ -118,7 +118,30 @@ export class TeaItemsService {
 		},
 	];
 
+	private heroTea: Tea = {
+		specialBanner: {
+			text: 'New',
+			textColor: '#3A6718',
+		},
+		image: {
+			url: '../assets/teas/strawberry_matcha_latte.png',
+			backgroundColor: '#FFFFFF',
+		},
+		name: 'Strawberry Matcha Latte',
+		description:
+			'We combined your two favorite flavours into one ultimate latte!',
+		toppings: {
+			names: ['Tapioca', 'Ice'],
+			toppingsTextColor: '#7F0303',
+			toppingsBackgroundColor: '#FADFDF',
+		},
+	};
+
 	get(): Tea[] {
 		return this.teas;
+	}
+
+	getHero(): Tea {
+		return this.heroTea;
 	}
 }

@@ -1,0 +1,39 @@
+.top-half {
+	height: 380px;
+}
+
+.second-half {
+	height: 120px;
+}
+
+.bottom-border {
+	border-bottom: 0.5px #bdbdbd solid;
+}
+
+.toppings-title {
+	color: #525252;
+	font-size: 30px;
+	font-weight: 600;
+	word-wrap: break-word;
+	display: inline-block;
+}
+
+.hero-special-banner {
+	font-size: 24px;
+	font-weight: 700;
+	word-wrap: break-word;
+}
+
+.hero-title {
+	color: #0a0a0a;
+	font-size: 48px;
+	font-weight: 700;
+	word-wrap: break-word;
+}
+
+.hero-description {
+	color: #503f3f;
+	font-size: 24px;
+	font-weight: 400;
+	word-wrap: break-word;
+}

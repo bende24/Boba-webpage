@@ -9,4 +9,5 @@ export class ToppingBadgeComponent {
 	@Input() text!: string;
 	@Input() textColor!: string;
 	@Input() backgroundColor!: string;
+	@Input() textSize?: string = '12px'
 }

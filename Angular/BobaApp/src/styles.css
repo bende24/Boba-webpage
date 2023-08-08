@@ -21,6 +21,14 @@
 	padding-bottom: 64px;
 }
 
+.padding-left-big {
+	padding-left: 64px;
+}
+
+.padding-right-big {
+	padding-right: 64px;
+}
+
 .xlarge-gap {
 	gap: 64px;
 }

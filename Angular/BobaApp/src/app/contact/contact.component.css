@@ -1,10 +1,8 @@
 span {
 	color: #f1f1f1;
-	font-family: Inter;
 }
 div {
 	color: #f1f1f1;
-	font-family: Inter;
 }
 
 .title {
@@ -15,14 +13,14 @@ div {
 }
 
 .information-title {
-	font-size: 24px;
+	font-size: 20px;
 	font-style: normal;
 	font-weight: 600;
 	line-height: normal;
 }
 
 .information-description {
-	font-size: 20px;
+	font-size: 16px;
 	font-style: normal;
 	font-weight: 400;
 	line-height: normal;
@@ -30,4 +28,5 @@ div {
 
 i {
 	color: #f1f1f1;
+	font-size: 20px !important;
 }
