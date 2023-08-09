@@ -1,6 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 
+*{
+	font-family: Inter;
+}
+
 .flex-column-container {
 	display: flex;
 	flex-direction: column;
@@ -13,12 +17,28 @@
 	align-self: stretch;
 }
 
+.padding-top-xlarge {
+	padding-top: 96px;
+}
+
 .padding-top-big {
 	padding-top: 64px;
 }
 
+.padding-top-medium {
+	padding-top: 48px;
+}
+
+.padding-bottom-xlarge {
+	padding-bottom: 96px;
+}
+
 .padding-bottom-big {
 	padding-bottom: 64px;
+}
+
+.padding-bottom-medium {
+	padding-bottom: 48px;
 }
 
 .padding-left-big {
@@ -27,6 +47,10 @@
 
 .padding-right-big {
 	padding-right: 64px;
+}
+
+.xxlarge-gap {
+	gap: 96px;
 }
 
 .xlarge-gap {
