@@ -1,6 +1,8 @@
 import { Injectable } from '@angular/core';
 import { Tea } from './tea.interface';
 
+var baseUrl = 'https://bende24.github.io/Boba-webpage/';
+
 @Injectable({
 	providedIn: 'root', // Indicates that the service is provided at the root level
 })
@@ -8,7 +10,7 @@ export class TeaItemsService {
 	private teas: Tea[] = [
 		{
 			image: {
-				url: '../assets/teas/green_tea.png',
+				url: `${baseUrl}/assets/teas/green_tea.png`,
 				backgroundColor: '#FD9F7D',
 			},
 			name: 'Green Tea',
@@ -21,7 +23,7 @@ export class TeaItemsService {
 		},
 		{
 			image: {
-				url: '../assets/teas/hibiscus_green_tea.png',
+				url: `${baseUrl}/assets/teas/hibiscus_green_tea.png`,
 				backgroundColor: '#F7B9BF',
 			},
 			name: 'Hibiscus Green Tea',
@@ -35,7 +37,7 @@ export class TeaItemsService {
 		},
 		{
 			image: {
-				url: '../assets/teas/honey_green_tea.png',
+				url: `${baseUrl}/assets/teas/honey_green_tea.png`,
 				backgroundColor: '#F7E6A5',
 			},
 			name: 'Honey Green Tea',
@@ -48,7 +50,7 @@ export class TeaItemsService {
 		},
 		{
 			image: {
-				url: '../assets/teas/lychee_oolong_tea.png',
+				url: `${baseUrl}/assets/teas/lychee_oolong_tea.png`,
 				backgroundColor: '#F6E193',
 			},
 			name: 'Lychee Oolong Tea',
@@ -65,7 +67,7 @@ export class TeaItemsService {
 				textColor: '#3A6718',
 			},
 			image: {
-				url: '../assets/teas/strawberry_matcha_latte.png',
+				url: `${baseUrl}/assets/teas/strawberry_matcha_latte.png`,
 				backgroundColor: '#F2CECE',
 			},
 			name: 'Strawberry Matcha Latte',
@@ -78,7 +80,7 @@ export class TeaItemsService {
 		},
 		{
 			image: {
-				url: '../assets/teas/thai_tea_latte.png',
+				url: `${baseUrl}/assets/teas/thai_tea_latte.png`,
 				backgroundColor: '#F98B63',
 			},
 			name: 'Thai Tea Latte',
@@ -91,7 +93,7 @@ export class TeaItemsService {
 		},
 		{
 			image: {
-				url: '../assets/teas/milk_tea.png',
+				url: `${baseUrl}/assets/teas/milk_tea.png`,
 				backgroundColor: '#FAE7D2',
 			},
 			name: 'Milk Tea',
@@ -104,7 +106,7 @@ export class TeaItemsService {
 		},
 		{
 			image: {
-				url: '../assets/teas/caramell_milk_tea.png',
+				url: `${baseUrl}/assets/teas/caramell_milk_tea.png`,
 				backgroundColor: '#FFE2B3',
 			},
 			name: 'Caramell Milk Tea',
@@ -124,7 +126,7 @@ export class TeaItemsService {
 			textColor: '#3A6718',
 		},
 		image: {
-			url: '../assets/teas/strawberry_matcha_latte.png',
+			url: `${baseUrl}/assets/teas/strawberry_matcha_latte.png`,
 			backgroundColor: '#FFFFFF',
 		},
 		name: 'Strawberry Matcha Latte',
