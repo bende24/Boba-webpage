@@ -1,17 +1,57 @@
+<div
+	style="position: absolute; width: 100%; height: 500px"
+	class="d-flex align-items-center"
+>
+	<div class="container">
+		<div class="row d-flex">
+			<div class="col-md-12">
+				<div
+					class="padding-left-big padding-right-big padding-top-medium padding-bottom-medium"
+				>
+					<div class="d-flex justify-content-end">
+						<div
+							class="d-flex justify-content-center align-items-center"
+						>
+							<div
+								class="circle-behind-image"
+								[style.background]="tea.image.backgroundColor"
+							></div>
+							<img
+								[style.position]="'relative'"
+								src="{{ tea.image.url }}"
+								alt="{{ tea.name }} image"
+							/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 <div class="top-half" [style.background]="tea.toppings.toppingsBackgroundColor">
 	<div class="container">
 		<div class="row d-flex">
 			<div class="col-md-12">
-				<div class="padding-left-big padding-right-big padding-top-medium padding-bottom-medium">
-                    <div class="flex-column-container medium-gap" [style.width]="'600px'">
-                        <div class="hero-special-banner" [style.color]="tea.specialBanner?.textColor">
-                            {{ tea.specialBanner?.text }}
-                        </div>
-                        <div class="flex-column-container xsmall-gap">
-                            <div class="hero-title">{{ tea.name }}</div>
-                            <div class="hero-description">{{ tea.description }}</div>
-                        </div>
-                    </div>
+				<div
+					class="padding-left-big padding-right-big padding-top-medium padding-bottom-medium"
+				>
+					<div
+						class="flex-column-container medium-gap"
+						[style.width]="'600px'"
+					>
+						<div
+							class="hero-special-banner"
+							[style.color]="tea.specialBanner?.textColor"
+						>
+							{{ tea.specialBanner?.text }}
+						</div>
+						<div class="flex-column-container xsmall-gap">
+							<div class="hero-title">{{ tea.name }}</div>
+							<div class="hero-description">
+								{{ tea.description }}
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>

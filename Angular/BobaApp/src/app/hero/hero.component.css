@@ -37,3 +37,14 @@
 	font-weight: 400;
 	word-wrap: break-word;
 }
+
+img {
+	max-width: 290px;
+}
+
+.circle-behind-image {
+	position: absolute;
+	width: 350px;
+	height: 350px;
+	border-radius: 9999px;
+}
