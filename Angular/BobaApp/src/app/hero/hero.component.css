@@ -1,9 +1,13 @@
 .top-half {
 	height: 380px;
+	z-index: 1;
+	position: relative;
 }
 
 .second-half {
 	height: 120px;
+	z-index: 1;
+	position: relative;
 }
 
 .bottom-border {
@@ -53,4 +57,5 @@ img {
 	position: absolute;
 	width: 100%;
 	height: 500px;
+	z-index: 0;
 }
