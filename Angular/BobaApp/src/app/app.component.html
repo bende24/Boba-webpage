@@ -1,4 +1,7 @@
-<div class="header" [style.background]="heroTea.toppings.toppingsBackgroundColor">
+<div
+	class="header"
+	[style.background]="heroTea.toppings.toppingsBackgroundColor"
+>
 	<div class="container">
 		<div class="row d-flex align-items-center justify-content-center">
 			<div class="col-md-2">
@@ -9,11 +12,11 @@
 				/>
 			</div>
 			<div class="col-md-7"></div>
-			<div class="col-md-3 header-navigation">
-				<span class="header-options">Menu</span>
-				<span class="header-options">Toppings</span>
-				<span class="header-options">Contact</span>
-			</div>
+			<nav class="col-md-3 header-navigation">
+				<a class="header-options" href="#menu">Menu</a>
+				<a class="header-options" href="#toppings">Toppings</a>
+				<a class="header-options" href="#contact">Contact</a>
+			</nav>
 		</div>
 	</div>
 </div>
@@ -24,7 +27,7 @@
 			class="padding-top-xlarge padding-bottom-xlarge flex-column-container xxlarge-gap"
 		>
 			<div class="flex-column-container medium-gap">
-				<span class="content-title">Menu</span>
+				<span id="menu" class="content-title">Menu</span>
 				<div class="menu-item-list fill xlarge-gap">
 					<app-boba-card
 						*ngFor="let tea of teas"
@@ -34,7 +37,7 @@
 			</div>
 
 			<div class="flex-column-container medium-gap">
-				<span class="content-title">Toppings</span>
+				<span id="toppings" class="content-title">Toppings</span>
 				<div class="menu-item-list fill">
 					<app-topping-card
 						*ngFor="let topping of toppings"
@@ -50,6 +53,7 @@
 	<div class="container">
 		<div class="col-md-12">
 			<app-contact
+				id="contact"
 				class="padding-top-big padding-bottom-big"
 			></app-contact>
 		</div>
